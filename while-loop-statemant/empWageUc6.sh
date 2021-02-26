@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 #constants are written in Captital letters only
 IS_FULLTIME=1
