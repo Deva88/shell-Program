@@ -1,9 +1,8 @@
 #!/bin/bash -x
 read n
-harmonicVal=1
-for ((i=0 ; i<n ; i++))
+sum=0
+for ((i=1 ; i<=n ; i++))
 do
-var=$(($i+1))
-harmonicVal=$((1 / $var))
+sum=$((1/$i))
 done
-echo $harmonicVal
+echo $sum
