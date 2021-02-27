@@ -8,6 +8,7 @@ fruits[3]="Mango"
 
 for fruit in ${fruits[*]}
 do
+
 echo $fruit
 done
 
