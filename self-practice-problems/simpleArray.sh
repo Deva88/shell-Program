@@ -1,6 +1,7 @@
 #!/bin/bash
 declare -a fruits
 fruits=("Apple" "Bananan" "Orange" "Mango")
+fruits[4]="Grapes"
 
 echo "All Element by using while loop :"
 i=0
