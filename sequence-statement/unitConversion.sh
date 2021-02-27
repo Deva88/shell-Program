@@ -1,4 +1,5 @@
 #!/bin/bash
+
 a=1
 b=42
 FtToinch=$(($a*12))
