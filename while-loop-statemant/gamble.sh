@@ -4,6 +4,7 @@ winCount=0
 lossCpunt=0
 while [ $num -ne 0 ] && [ $num -lt 200 ]
 do
+
 n=$((RANDOM%2))
 if [ $n -eq 1 ]
 then
