@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 #constants are written in Captital letters only
 IS_FULLTIME=1
@@ -6,7 +6,6 @@ IS_PARTTIME=2
 EMP_RATE_PER_HR=20;
 NUMBER_OF_WORKING_DAYS=5
 MAX_HRS_IN_MONTH=20
-
 #variable
 totalEmpHrs=0
 totalWorkingDays=0
