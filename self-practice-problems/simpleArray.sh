@@ -3,6 +3,7 @@ declare -a fruits
 fruits=("Apple" "Bananan" "Orange" "Mango")
 fruits[4]="Grapes"
 
+
 echo "All Element by using while loop :"
 i=0
 while [ $i -lt ${#fruits[@]} ]
@@ -10,6 +11,7 @@ do
 echo ${fruits[$i]}
 let i++
 done
+
 
 echo "All elements by using Normal for loop:"
 for fruit in ${fruits[@]}
