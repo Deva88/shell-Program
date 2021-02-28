@@ -3,6 +3,7 @@
 # to declare whole array at once
 name=( abc 0 xyz 100 pqr mno )
 # to declare Array elements one by one
+
 counter=0
 fruits[((counter++))]="Apple"
 fruits[((counter++))]="Orange"
