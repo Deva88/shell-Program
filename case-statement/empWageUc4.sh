@@ -2,7 +2,7 @@
 isPartTime=1
 isFullTime=2
 empRatePerHr=20
-empCheck=$((RANDOM%3))
+empCheck=$((RANDOM%2))
 
    case $empCheck in
          $isFullTime)
