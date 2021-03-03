@@ -1,10 +1,18 @@
 #!/bin/bash -x
 read -p " Enter Date:-" date
-read -p " Enter Month:-" Month
+read -p " Enter Month:-" month
 
-if (( ($Month >= 3 & $Month < 6) & ($date<=20) ))
+
+
+ if [[ $date -ge 20 && $date -le 31 && $month -eq 3 ]] ||
+    [[ $date -ge 1 && $date -le 30 && $month -eq 4 ]] ||
+    [[ $date -ge 1 && $date -le 31 && $month -eq 5 ]] ||
+    [[ $date -ge 1 && $date -le 20 && $month -eq 6 ]]
+
+
 then
-        echo $Month $date "True";
+        echo $month $date "True";
 else
-        echo "False";
+        echo "Falsh";
 fi
+
