@@ -1,5 +1,5 @@
 #!/bin/bash -x
 
-randomNum=$((RANDOM%9))
-  
+randomNum=$((RANDOM%10))
+
 echo $randomNum
